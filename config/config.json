@@ -1,0 +1,17 @@
+{
+  "hydra": {
+    "serviceName": "test-service",
+    "serviceIP": "",
+    "servicePort": 2222,
+    "serviceType": "test",
+    "serviceDescription": "Test Service",
+    "plugins": { 
+      "redisCache": {
+        "url": "redis://localhost:6379/3"
+      }
+    },
+    "redis": {
+      "url" : "redis://localhost:6379/15"
+    }
+  } 
+}
